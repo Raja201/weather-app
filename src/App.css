@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .app{
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image:url('./assets/sce1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50%;
+    
+  }
+  
+.cool{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    background-image:url('./assets/sce1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width:600px;
+    
+    
+}
+
+
+.warm{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    background-image:url('./assets/sce1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width:600px;
+    
+}
+
+.search-box{
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 30px;;
+}
+
+.search-bar{
+    display:block;
+    width: 100%;
+    padding: 15px;
+    appearance: none;
+    background: none;
+    border:none;
+    outline: none;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 0px 5px rgba(0,0,0, 0.2);
+    
+}
+
+.search-bar:hover{
+ background-color: aliceblue;
+}
+
+ 
+.location{
+    margin-top: 70px;
+    color: black;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 3px 3px rgba(192, 161, 196, 0.5)
+}
+
+.date{
+    margin-top: 7px;
+    color:black;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 3px 3px rgba(192, 161, 196, 0.5);
+    font-family: cursive;
+}
+
+.temp{
+    position:relative;
+    display: inline-block;
+    margin: 30px auto;
+    background-color: rgba(255,255,255,0.5);
+    padding: 15px 25px;
+    border-radius: 16px;
+
+    color:#fff;
+
+    font-size: 90px;
+    font-weight: 800;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+    box-shadow: 0px 5px rgba(0,0,0, 0.2);
+}
+
+.weather{
+    color:black;
+    margin-top:-10px ;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
